@@ -1,48 +1,29 @@
-# 🧑‍💻 Full Stack Web App – Basti Ki Pathshala Foundation
+# 🧑‍💻 Basti Ki Pathshala Foundation - Full Stack Web App
 
-This is a full-stack web application built using **Django** (Python) as part of the Web Development Internship assignment for **Basti Ki Pathshala Foundation**.
-
-It includes a public-facing homepage, a volunteer/intern registration form, and an admin panel to view submitted applicants.
-
----
+This is a Django-based full stack web application built for the **Web Development Internship Task** assigned by **Basti Ki Pathshala Foundation**.
 
 ## 📌 Features
 
-- 🏠 Home Page with NGO message and navigation
-- 📝 Intern/Volunteer Registration Form
-- 🔐 Admin-only view of all applicants
-- 📋 Submissions saved in the database
-- ✅ Django admin dashboard integration
-- 💡 Responsive HTML/CSS frontend (Bootstrap optional)
+- ✅ Home Page with navigation
+- ✅ Volunteer/Intern Registration Form
+- ✅ Admin Panel to view all applicants
+- ✅ Responsive and clean interface using HTML & CSS
+- ✅ Uses Django’s built-in ORM and admin panel
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer        | Tech Used      |
-|--------------|----------------|
-| Frontend     | HTML, CSS (Bootstrap optional) |
-| Backend      | Django (Python) |
-| Database     | SQLite (default in Django) |
-| Admin Panel  | Django Admin |
-| Hosting      | Localhost (or deploy on Render/Heroku) |
+- **Backend**: Django (Python)
+- **Frontend**: HTML, CSS, Bootstrap (optional)
+- **Database**: SQLite (default, easy to use)
+- **Admin Panel**: Django admin
 
 ---
 
-## 🚀 Pages Overview
+## 🔧 Setup Instructions
 
-| URL Path              | Description                         |
-|-----------------------|-------------------------------------|
-| `/`                   | Home page                           |
-| `/register/`          | Registration form for volunteer/intern |
-| `/admin-view/`        | Admin view of all applicants        |
-| `/admin/`             | Django's built-in admin panel       |
-
----
-
-## 🧪 Setup Instructions
-
-### 1. Clone the Project
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/basti-foundation-django.git
